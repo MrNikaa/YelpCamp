@@ -22,7 +22,7 @@ const userRoutes = require('./routes/users');
 const campgroundRoutes = require('./routes/campgrounds');
 const reviewRoutes = require('./routes/reviews');
 
-mongoose.connect(db_url, {
+mongoose.connect("mongodb+srv://Panjo:Panjo123@yelpcamp.zfdg4xf.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,
